@@ -1,0 +1,297 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en" xmlns="http://www.w3.org/1999/html"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;style type="text/css"&gt;@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}&lt;/style&gt; <br/>
+  &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" href="Register.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" href="ng-grid.css"&gt; &lt;!-- Latest compiled and minified CSS --&gt; <br/>
+  &lt;link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"&gt; &lt;!-- jQuery library --&gt; <br/>
+  &lt;script src="https://partner.googleadservices.com/gampad/cookie.js?domain=demo.automationtesting.in&amp;callback=_gfp_s_&amp;client=ca-pub-9173866185064071&amp;gpid_exp=1"&gt;&lt;/script&gt;<br/>
+  &lt;script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202208040101/show_ads_impl_fy2021.js" id="google_shimpl"&gt;&lt;/script&gt;<br/>
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"&gt;&lt;/script&gt; &lt;!-- Latest compiled JavaScript --&gt; <br/>
+  &lt;script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="angcontroller.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-cookies.js"&gt; &lt;/script&gt; <br/>
+  &lt;script src="ui-grid.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"&gt; <br/>
+  &lt;link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet"&gt; <br/>
+  &lt;script src="Register.js" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;title&gt;Register&lt;/title&gt; <br/>
+  &lt;link rel="icon" type="image/png" href="original.png"&gt; <br/>
+  &lt;style&gt;    .drop{        margin-left: 160px;    }    .ui-autocomplete-multiselect.ui-state-default {        display: block;        background: #fff;        border: 1px solid #ccc;        padding: 3px 3px;        padding-bottom: 0px;        overflow: hidden;        cursor: text;        width: 170px !important;        border-radius: 4px;        border-color: #555;    }    .ui-autocomplete-multiselect .ui-autocomplete-multiselect-item {        display: inline-block;        border: 1px solid #ccc;        border-radius: 4px;        padding: 1px 3px;        margin-right: 2px;        margin-bottom: 3px;        color: #333;        background-color: #f6f6f6;    }    .ui-autocomplete    {        position: absolute;        top:100%;        left:8%;        cursor: pointer;        width :160px!important;    }    .ui-elemfocus    {        border:1px solid #fbcb09;//        background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;        color: #c77405;    }    &lt;/style&gt; <br/>
+  &lt;meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="&gt;<br/>
+  &lt;meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="&gt;<br/>
+  &lt;meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="&gt;<br/>
+  &lt;link rel="preload" href="https://adservice.google.co.in/adsid/integrator.js?domain=demo.automationtesting.in" as="script"&gt;<br/>
+  &lt;script type="text/javascript" src="https://adservice.google.co.in/adsid/integrator.js?domain=demo.automationtesting.in"&gt;&lt;/script&gt;<br/>
+  &lt;link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=demo.automationtesting.in" as="script"&gt;<br/>
+  &lt;script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=demo.automationtesting.in"&gt;&lt;/script&gt;<br/>
+ &lt;/head&gt; <br/>
+ &lt;body ng-app="Registerform" ng-controller="FormCtrl" class="ng-scope"&gt; <br/>
+  &lt;header id="header"&gt; <br/>
+   &lt;div class="top"&gt; <br/>
+    &lt;div class="container"&gt; <br/>
+     &lt;div class="row"&gt; <br/>
+      &lt;div class="col-sm-3 col-xs-3 col-md-2 "&gt; &lt;a href="http://www.automationtesting.in" class="navbar-brand"&gt; &lt;img src="original.png" alt="image not displaying" style="height: 50px"&gt; &lt;/a&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="col-sm-8 col-xs-8 col-md-8" align="center"&gt; <br/>
+       &lt;h1&gt;Automation Demo Site &lt;/h1&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+   &lt;nav class="navbar navbar-inverse" style="min-height: 34px"&gt; <br/>
+    &lt;div class="container"&gt; <br/>
+     &lt;div class="navbar-header"&gt; &lt;button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt; &lt;span class="sr-only"&gt;Toggle Navigation&lt;/span&gt; &lt;span class="icon-bar"&gt; &lt;/span&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt; &lt;span class="icon-bar"&gt; &lt;/span&gt; &lt;/button&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="navbar-collapse collapse navbar-right"&gt; <br/>
+      &lt;ul class="nav navbar-nav" style="width: 106%;"&gt; <br/>
+       &lt;li&gt; &lt;a href="Index.html"&gt;Home&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="active"&gt; &lt;a href="Register.html"&gt;Register&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt; &lt;a href="WebTable.html"&gt;WebTable&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown"&gt; &lt;a href="SwitchTo.html" data-toggle="dropdown" class="dropdown-toggle"&gt;SwitchTo&lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a href="Alerts.html" style="color: white"&gt;Alerts&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Windows.html" style="color: white"&gt;Windows&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Frames.html" style="color: white"&gt;Frames&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown "&gt; &lt;a href="Widgets.html" data-toggle="dropdown" class="dropdown-toggle"&gt;Widgets&lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a href="Accordion.html" style="color: white"&gt; Accordion &lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="AutoComplete.html" style="color: white"&gt; AutoComplete &lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="Datepicker.html" style="color: white"&gt; Datepicker &lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="Slider.html" style="color: white"&gt; Slider &lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown "&gt; &lt;a href="Interactions.html" data-toggle="dropdown" class="dropdown-toggle"&gt;Interactions &lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a data-toggle="dropdown" class="dropdown-toggle" style="color: white;cursor: pointer"&gt;Drag and Drop &lt;/a&gt; <br/>
+          &lt;ul class="childmenu "&gt; <br/>
+           &lt;li&gt; &lt;a href="Static.html" style="color: white"&gt;Static &lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt; &lt;a href="Dynamic.html" style="color: white"&gt;Dynamic &lt;/a&gt;&lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Selectable.html" style="color: white"&gt;Selectable &lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Resizable.html" style="color: white"&gt;Resizable&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown"&gt; &lt;a href="SwitchTo.html" data-toggle="dropdown" class="dropdown-toggle"&gt;Video&lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a href="Youtube.html" style="color: white"&gt;Youtube&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Vimeo.html" style="color: white"&gt;Vimeo&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown"&gt; &lt;a href="WYSIWYG.html" data-toggle="dropdown" class="dropdown-toggle"&gt;WYSIWYG&lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a href="TinyMCE.html" style="color: white"&gt;TinyMCE&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="CKEditor.html" style="color: white"&gt;CKEditor&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="SummerNote.html" style="color: white"&gt;SummerNote&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="CodeMirror.html" style="color: white"&gt;CodeMirror&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="dropdown"&gt; &lt;a href="#" data-toggle="dropdown" class="dropdown-toggle"&gt;More&lt;/a&gt; &lt;i class="fa fa-angle-down"&gt; &lt;/i&gt; <br/>
+        &lt;ul class="dropdown-menu"&gt; <br/>
+         &lt;li&gt; &lt;a href="Charts.html" style="color: white"&gt;Charts&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="DynamicData.html" style="color: white"&gt;Dynamic Data&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="FileDownload.html" style="color: white"&gt;File Download&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="FileUpload.html" style="color: white"&gt;File Upload&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="JqueryProgressBar.html" style="color: white"&gt;JQuery ProgressBar&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Loader.html" style="color: white"&gt;Loader&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="Modals.html" style="color: white"&gt;Modals&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt; &lt;a href="ProgressBar.html" style="color: white"&gt;ProgressBar&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="http://practice.automationtesting.in/"&gt;Practice Site&lt;/a&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/nav&gt; <br/>
+  &lt;/header&gt; <br/>
+  &lt;section id="section" style="height: auto !important;"&gt; &lt;!-- ngIf: errorlabel --&gt; <br/>
+   &lt;div class="container center" style="height: auto !important;"&gt; <br/>
+    &lt;h2&gt;Register&lt;/h2&gt; <br/>
+    &lt;div class="row " style="height: auto !important;"&gt; <br/>
+     &lt;div class="col-sm-2 col-md-2 col-xs-2 hidden-xs"&gt; <br/>
+      &lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt; &lt;!-- Responsive --&gt; <br/>
+      &lt;ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-9173866185064071" data-ad-slot="6638633547" data-ad-format="auto" data-adsbygoogle-status="done" data-ad-status="unfilled"&gt;<br/>
+       &lt;div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"&gt;<br/>
+        &lt;iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:1200px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1200" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9173866185064071&amp;output=html&amp;h=280&amp;slotname=6638633547&amp;adk=3223593786&amp;adf=858733314&amp;pi=t.ma~as.6638633547&amp;w=1200&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1658234640&amp;rafmt=1&amp;psa=0&amp;format=1200x280&amp;url=https%3A%2F%2Fdemo.automationtesting.in%2FRegister.html&amp;fwr=0&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTA0LjAuNTExMi44MSIsW10sZmFsc2UsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTA0LjAuNTExMi44MSJdLFsiIE5vdCBBO0JyYW5kIiwiOTkuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMDQuMC41MTEyLjgxIl1dLGZhbHNlXQ..&amp;dt=1660218129332&amp;bpp=4&amp;bdt=713&amp;idt=535&amp;shv=r20220809&amp;mjsv=m202208040101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;correlator=2112551309933&amp;frm=20&amp;pv=2&amp;ga_vid=1693724787.1660218130&amp;ga_sid=1660218130&amp;ga_hid=436695005&amp;ga_fc=0&amp;u_tz=330&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=680&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1.5&amp;dmc=8&amp;adx=32&amp;ady=1029&amp;biw=1263&amp;bih=547&amp;scr_x=0&amp;scr_y=350&amp;eid=44771041%2C31068486%2C44770765%2C31062931&amp;oid=2&amp;pvsid=651316635359986&amp;tmod=388022295&amp;uas=0&amp;nvt=2&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C680%2C1280%2C564&amp;vis=1&amp;rsz=%7C%7CEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=1152&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;btvi=1&amp;fsb=1&amp;xpc=yBDFHf7aTR&amp;p=https%3A//demo.automationtesting.in&amp;dtd=553" data-google-container-id="a!1" data-load-complete="true"&gt;&lt;/iframe&gt;<br/>
+       &lt;/div&gt;&lt;/ins&gt; <br/>
+      &lt;script&gt;               (adsbygoogle = window.adsbygoogle || []).push({});           &lt;/script&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="col-sm-6 col-md-6 col-xs-12"&gt; <br/>
+      &lt;form id="basicBootstrapForm" ng-submit="createdata()" class="form-horizontal ng-pristine ng-invalid ng-invalid-required ng-valid-email ng-valid-pattern ng-valid-minlength"&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Full Name* &lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;input type="text" placeholder="First Name" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="FirstName" required&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;input type="text" placeholder="Last Name" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="LastName" required&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Address&lt;/label&gt; <br/>
+        &lt;div class="col-md-8 col-xs-8 col-sm-8"&gt; &lt;textarea rows="3" class="form-control ng-pristine ng-untouched ng-valid" ng-model="Adress"&gt; &lt;/textarea&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Email address*&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4" id="eid"&gt; <br/>
+         &lt;input type="email" class="form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" ng-model="EmailAdress" required&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="col-sm-4 col-xs-4 tooltptext"&gt; &lt;span&gt;Provide a valid email id for further updates&lt;/span&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Phone*&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;input type="tel" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" ng-model="Phone" required pattern="^\d{10}$"&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Gender*&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; &lt;label&gt; &lt;input type="radio" name="radiooptions" ng-model="radiovalue" value="Male" required class="ng-pristine ng-untouched ng-invalid ng-invalid-required"&gt; Male &lt;/label&gt; &lt;label&gt; &lt;input type="radio" name="radiooptions" ng-model="radiovalue" value="FeMale" class="ng-pristine ng-untouched ng-valid"&gt; FeMale&lt;/label&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Hobbies&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;div&gt; <br/>
+          &lt;input type="checkbox" id="checkbox1" value="Cricket"&gt; &lt;label class="checks" style="text-align: right"&gt; Cricket &lt;/label&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div&gt; <br/>
+          &lt;input type="checkbox" id="checkbox2" value="Movies"&gt; &lt;label class="checks"&gt;Movies &lt;/label&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div&gt; <br/>
+          &lt;input type="checkbox" id="checkbox3" value="Hockey"&gt; &lt;label class="checks"&gt;Hockey&lt;/label&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Languages&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; &lt;multi-select&gt; <br/>
+          &lt;div class="ui-autocomplete-multiselect ui-state-default ui-widget" id="msdd" style="min-height:30px;max-width:200px"&gt; &lt;!--         &lt;input type="text" style="border: none; outline: none; width: 15px; height: 25px"/&gt;--&gt; <br/>
+          &lt;/div&gt; <br/>
+          &lt;div style="display: none;"&gt;<br/>
+           &lt;ul style="list-style:none;max-height: 230px;overflow: scroll;" class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all"&gt; <br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Arabic&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Bulgarian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Catalan&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Croatian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Czech&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Danish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Dutch&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;English&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Estonian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Filipino&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Finnish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;French&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;German&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Greek&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Hebrew&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Hindi&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Hungarian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Icelandic&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Indonesian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Italian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Japanese&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Korean&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Latvian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Lithuanian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Malay&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Norwegian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Persian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Polish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Portuguese&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Romanian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Russian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Serbian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Slovak&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Slovenian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Spanish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Swedish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Thai&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Turkish&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Ukrainian&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Urdu&lt;/a&gt; &lt;/li&gt;<br/>
+            &lt;li list-select="" class="ng-scope"&gt; &lt;a style="text-decoration:none" class="ui-corner-all"&gt;Vietnamese&lt;/a&gt; &lt;/li&gt;<br/>
+           &lt;/ul&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/multi-select&gt; &lt;!--                   &lt;select type="text" class="form-control" id="Languages" ng-model="Language" ng-init="Language=''"&gt;                  &lt;option value=""&gt; Select languages&lt;/option&gt;                   &lt;/select&gt;--&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Skills&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; &lt;select type="text" class="form-control ng-pristine ng-untouched ng-valid" id="Skills" ng-model="Skill" ng-init="Skill=''"&gt; &lt;option value=""&gt;Select Skills&lt;/option&gt; &lt;option value="Adobe InDesign"&gt;Adobe InDesign&lt;/option&gt;&lt;option value="Adobe Photoshop"&gt;Adobe Photoshop&lt;/option&gt;&lt;option value="Analytics"&gt;Analytics&lt;/option&gt;&lt;option value="Android"&gt;Android&lt;/option&gt;&lt;option value="APIs"&gt;APIs&lt;/option&gt;&lt;option value="Art Design"&gt;Art Design&lt;/option&gt;&lt;option value="AutoCAD"&gt;AutoCAD&lt;/option&gt;&lt;option value="Backup Management"&gt;Backup Management&lt;/option&gt;&lt;option value="C"&gt;C&lt;/option&gt;&lt;option value="C++"&gt;C++&lt;/option&gt;&lt;option value="Certifications"&gt;Certifications&lt;/option&gt;&lt;option value="Client Server"&gt;Client Server&lt;/option&gt;&lt;option value="Client Support"&gt;Client Support&lt;/option&gt;&lt;option value="Configuration"&gt;Configuration&lt;/option&gt;&lt;option value="Content Managment"&gt;Content Managment&lt;/option&gt;&lt;option value="Content Management Systems (CMS)"&gt;Content Management Systems (CMS)&lt;/option&gt;&lt;option value="Corel Draw"&gt;Corel Draw&lt;/option&gt;&lt;option value="Corel Word Perfect"&gt;Corel Word Perfect&lt;/option&gt;&lt;option value="CSS"&gt;CSS&lt;/option&gt;&lt;option value="Data Analytics"&gt;Data Analytics&lt;/option&gt;&lt;option value="Desktop Publishing"&gt;Desktop Publishing&lt;/option&gt;&lt;option value="Design"&gt;Design&lt;/option&gt;&lt;option value="Diagnostics"&gt;Diagnostics&lt;/option&gt;&lt;option value="Documentation"&gt;Documentation&lt;/option&gt;&lt;option value="End User Support"&gt;End User Support&lt;/option&gt;&lt;option value="Email"&gt;Email&lt;/option&gt;&lt;option value="Engineering"&gt;Engineering&lt;/option&gt;&lt;option value="Excel"&gt;Excel&lt;/option&gt;&lt;option value="FileMaker Pro"&gt;FileMaker Pro&lt;/option&gt;&lt;option value="Fortran"&gt;Fortran&lt;/option&gt;&lt;option value="HTML"&gt;HTML&lt;/option&gt;&lt;option value="Implementation"&gt;Implementation&lt;/option&gt;&lt;option value="Installation"&gt;Installation&lt;/option&gt;&lt;option value="Internet"&gt;Internet&lt;/option&gt;&lt;option value="iOS"&gt;iOS&lt;/option&gt;&lt;option value="iPhone"&gt;iPhone&lt;/option&gt;&lt;option value="Linux"&gt;Linux&lt;/option&gt;&lt;option value="Java"&gt;Java&lt;/option&gt;&lt;option value="Javascript"&gt;Javascript&lt;/option&gt;&lt;option value="Mac"&gt;Mac&lt;/option&gt;&lt;option value="Matlab"&gt;Matlab&lt;/option&gt;&lt;option value="Maya"&gt;Maya&lt;/option&gt;&lt;option value="Microsoft Excel"&gt;Microsoft Excel&lt;/option&gt;&lt;option value="Microsoft Office"&gt;Microsoft Office&lt;/option&gt;&lt;option value="Microsoft Outlook"&gt;Microsoft Outlook&lt;/option&gt;&lt;option value="Microsoft Publisher"&gt;Microsoft Publisher&lt;/option&gt;&lt;option value="Microsoft Word"&gt;Microsoft Word&lt;/option&gt;&lt;option value="Microsoft Visual"&gt;Microsoft Visual&lt;/option&gt;&lt;option value="Mobile"&gt;Mobile&lt;/option&gt;&lt;option value="MySQL"&gt;MySQL&lt;/option&gt;&lt;option value="Networks"&gt;Networks&lt;/option&gt;&lt;option value="Open Source Software"&gt;Open Source Software&lt;/option&gt;&lt;option value="Oracle"&gt;Oracle&lt;/option&gt;&lt;option value="Perl"&gt;Perl&lt;/option&gt;&lt;option value="PHP"&gt;PHP&lt;/option&gt;&lt;option value="Presentations"&gt;Presentations&lt;/option&gt;&lt;option value="Processing"&gt;Processing&lt;/option&gt;&lt;option value="Programming"&gt;Programming&lt;/option&gt;&lt;option value="PT Modeler"&gt;PT Modeler&lt;/option&gt;&lt;option value="Python"&gt;Python&lt;/option&gt;&lt;option value="QuickBooks"&gt;QuickBooks&lt;/option&gt;&lt;option value="Ruby"&gt;Ruby&lt;/option&gt;&lt;option value="Shade"&gt;Shade&lt;/option&gt;&lt;option value="Software"&gt;Software&lt;/option&gt;&lt;option value="Spreadsheet"&gt;Spreadsheet&lt;/option&gt;&lt;option value="SQL"&gt;SQL&lt;/option&gt;&lt;option value="Support"&gt;Support&lt;/option&gt;&lt;option value="Systems Administration"&gt;Systems Administration&lt;/option&gt;&lt;option value="Tech Support"&gt;Tech Support&lt;/option&gt;&lt;option value="Troubleshooting"&gt;Troubleshooting&lt;/option&gt;&lt;option value="Unix"&gt;Unix&lt;/option&gt;&lt;option value="UI / UX"&gt;UI / UX&lt;/option&gt;&lt;option value="Web Page Design"&gt;Web Page Design&lt;/option&gt;&lt;option value="Windows"&gt;Windows&lt;/option&gt;&lt;option value="Word Processing"&gt;Word Processing&lt;/option&gt;&lt;option value="XML"&gt;XML&lt;/option&gt;&lt;option value="XHTML"&gt;XHTML&lt;/option&gt;&lt;/select&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Country*&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; &lt;select type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" id="countries" required ng-model="country" ng-init="country=''"&gt; &lt;option value=""&gt;Select Country&lt;/option&gt; &lt;/select&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label" for="usr"&gt;Select Country :&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; &lt;select id="country" style="width:300px;" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true"&gt; &lt;!-- Dropdown List Option --&gt; &lt;option&gt;&lt;/option&gt;&lt;option value="Australia"&gt;Australia&lt;/option&gt;&lt;option value="Bangladesh"&gt;Bangladesh&lt;/option&gt;&lt;option value="Denmark"&gt;Denmark&lt;/option&gt;&lt;option value="Hong Kong"&gt;Hong Kong&lt;/option&gt;&lt;option value="India"&gt;India&lt;/option&gt;&lt;option value="Japan"&gt;Japan&lt;/option&gt;&lt;option value="Netherlands"&gt;Netherlands&lt;/option&gt;&lt;option value="New Zealand"&gt;New Zealand&lt;/option&gt;&lt;option value="South Africa"&gt;South Africa&lt;/option&gt;&lt;option value="United States of America"&gt;United States of America&lt;/option&gt;&lt;/select&gt;&lt;span class="select2 select2-container select2-container--default" dir="ltr" style="width: 300px;"&gt;&lt;span class="selection"&gt;&lt;span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-labelledby="select2-country-container"&gt;&lt;span class="select2-selection__rendered" id="select2-country-container" title=""&gt;&lt;/span&gt;&lt;span class="select2-selection__arrow" role="presentation"&gt;&lt;b role="presentation"&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="dropdown-wrapper" aria-hidden="true"&gt;&lt;/span&gt;&lt;/span&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Date Of Birth&lt;/label&gt; <br/>
+        &lt;div class="col-md-3 col-xs-3 col-sm-3"&gt; &lt;select type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Year" id="yearbox" ng-model="yearbox" ng-init="yearbox=''" required&gt; &lt;option value=""&gt;year &lt;/option&gt; &lt;option value="1916"&gt;1916&lt;/option&gt;&lt;option value="1917"&gt;1917&lt;/option&gt;&lt;option value="1918"&gt;1918&lt;/option&gt;&lt;option value="1919"&gt;1919&lt;/option&gt;&lt;option value="1920"&gt;1920&lt;/option&gt;&lt;option value="1921"&gt;1921&lt;/option&gt;&lt;option value="1922"&gt;1922&lt;/option&gt;&lt;option value="1923"&gt;1923&lt;/option&gt;&lt;option value="1924"&gt;1924&lt;/option&gt;&lt;option value="1925"&gt;1925&lt;/option&gt;&lt;option value="1926"&gt;1926&lt;/option&gt;&lt;option value="1927"&gt;1927&lt;/option&gt;&lt;option value="1928"&gt;1928&lt;/option&gt;&lt;option value="1929"&gt;1929&lt;/option&gt;&lt;option value="1930"&gt;1930&lt;/option&gt;&lt;option value="1931"&gt;1931&lt;/option&gt;&lt;option value="1932"&gt;1932&lt;/option&gt;&lt;option value="1933"&gt;1933&lt;/option&gt;&lt;option value="1934"&gt;1934&lt;/option&gt;&lt;option value="1935"&gt;1935&lt;/option&gt;&lt;option value="1936"&gt;1936&lt;/option&gt;&lt;option value="1937"&gt;1937&lt;/option&gt;&lt;option value="1938"&gt;1938&lt;/option&gt;&lt;option value="1939"&gt;1939&lt;/option&gt;&lt;option value="1940"&gt;1940&lt;/option&gt;&lt;option value="1941"&gt;1941&lt;/option&gt;&lt;option value="1942"&gt;1942&lt;/option&gt;&lt;option value="1943"&gt;1943&lt;/option&gt;&lt;option value="1944"&gt;1944&lt;/option&gt;&lt;option value="1945"&gt;1945&lt;/option&gt;&lt;option value="1946"&gt;1946&lt;/option&gt;&lt;option value="1947"&gt;1947&lt;/option&gt;&lt;option value="1948"&gt;1948&lt;/option&gt;&lt;option value="1949"&gt;1949&lt;/option&gt;&lt;option value="1950"&gt;1950&lt;/option&gt;&lt;option value="1951"&gt;1951&lt;/option&gt;&lt;option value="1952"&gt;1952&lt;/option&gt;&lt;option value="1953"&gt;1953&lt;/option&gt;&lt;option value="1954"&gt;1954&lt;/option&gt;&lt;option value="1955"&gt;1955&lt;/option&gt;&lt;option value="1956"&gt;1956&lt;/option&gt;&lt;option value="1957"&gt;1957&lt;/option&gt;&lt;option value="1958"&gt;1958&lt;/option&gt;&lt;option value="1959"&gt;1959&lt;/option&gt;&lt;option value="1960"&gt;1960&lt;/option&gt;&lt;option value="1961"&gt;1961&lt;/option&gt;&lt;option value="1962"&gt;1962&lt;/option&gt;&lt;option value="1963"&gt;1963&lt;/option&gt;&lt;option value="1964"&gt;1964&lt;/option&gt;&lt;option value="1965"&gt;1965&lt;/option&gt;&lt;option value="1966"&gt;1966&lt;/option&gt;&lt;option value="1967"&gt;1967&lt;/option&gt;&lt;option value="1968"&gt;1968&lt;/option&gt;&lt;option value="1969"&gt;1969&lt;/option&gt;&lt;option value="1970"&gt;1970&lt;/option&gt;&lt;option value="1971"&gt;1971&lt;/option&gt;&lt;option value="1972"&gt;1972&lt;/option&gt;&lt;option value="1973"&gt;1973&lt;/option&gt;&lt;option value="1974"&gt;1974&lt;/option&gt;&lt;option value="1975"&gt;1975&lt;/option&gt;&lt;option value="1976"&gt;1976&lt;/option&gt;&lt;option value="1977"&gt;1977&lt;/option&gt;&lt;option value="1978"&gt;1978&lt;/option&gt;&lt;option value="1979"&gt;1979&lt;/option&gt;&lt;option value="1980"&gt;1980&lt;/option&gt;&lt;option value="1981"&gt;1981&lt;/option&gt;&lt;option value="1982"&gt;1982&lt;/option&gt;&lt;option value="1983"&gt;1983&lt;/option&gt;&lt;option value="1984"&gt;1984&lt;/option&gt;&lt;option value="1985"&gt;1985&lt;/option&gt;&lt;option value="1986"&gt;1986&lt;/option&gt;&lt;option value="1987"&gt;1987&lt;/option&gt;&lt;option value="1988"&gt;1988&lt;/option&gt;&lt;option value="1989"&gt;1989&lt;/option&gt;&lt;option value="1990"&gt;1990&lt;/option&gt;&lt;option value="1991"&gt;1991&lt;/option&gt;&lt;option value="1992"&gt;1992&lt;/option&gt;&lt;option value="1993"&gt;1993&lt;/option&gt;&lt;option value="1994"&gt;1994&lt;/option&gt;&lt;option value="1995"&gt;1995&lt;/option&gt;&lt;option value="1996"&gt;1996&lt;/option&gt;&lt;option value="1997"&gt;1997&lt;/option&gt;&lt;option value="1998"&gt;1998&lt;/option&gt;&lt;option value="1999"&gt;1999&lt;/option&gt;&lt;option value="2000"&gt;2000&lt;/option&gt;&lt;option value="2001"&gt;2001&lt;/option&gt;&lt;option value="2002"&gt;2002&lt;/option&gt;&lt;option value="2003"&gt;2003&lt;/option&gt;&lt;option value="2004"&gt;2004&lt;/option&gt;&lt;option value="2005"&gt;2005&lt;/option&gt;&lt;option value="2006"&gt;2006&lt;/option&gt;&lt;option value="2007"&gt;2007&lt;/option&gt;&lt;option value="2008"&gt;2008&lt;/option&gt;&lt;option value="2009"&gt;2009&lt;/option&gt;&lt;option value="2010"&gt;2010&lt;/option&gt;&lt;option value="2011"&gt;2011&lt;/option&gt;&lt;option value="2012"&gt;2012&lt;/option&gt;&lt;option value="2013"&gt;2013&lt;/option&gt;&lt;option value="2014"&gt;2014&lt;/option&gt;&lt;option value="2015"&gt;2015&lt;/option&gt;&lt;/select&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="col-md-3 col-xs-3 col-sm-3"&gt; &lt;select type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Month" ng-model="monthbox" ng-init="monthbox=''" required&gt; &lt;option value=""&gt;Month&lt;/option&gt; &lt;option value="January"&gt;January&lt;/option&gt; &lt;option value="February"&gt;February&lt;/option&gt; &lt;option value="March"&gt;March&lt;/option&gt; &lt;option value="April"&gt;April&lt;/option&gt; &lt;option value="May"&gt;May&lt;/option&gt; &lt;option value="June"&gt;June&lt;/option&gt; &lt;option value="July"&gt;July&lt;/option&gt; &lt;option value="August"&gt;August&lt;/option&gt; &lt;option value="September"&gt;September&lt;/option&gt; &lt;option value="October"&gt;October&lt;/option&gt; &lt;option value="November"&gt;November&lt;/option&gt; &lt;option value="December"&gt;December&lt;/option&gt; &lt;/select&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="col-md-3 col-xs-3 col-sm-3"&gt; &lt;select type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Day" id="daybox" ng-model="daybox" ng-init="daybox=''" required&gt; &lt;option value=""&gt; Day &lt;/option&gt; &lt;option value="1"&gt;1 &lt;/option&gt; &lt;option value="2"&gt;2&lt;/option&gt; &lt;option value="3"&gt;3&lt;/option&gt; &lt;option value="4"&gt;4&lt;/option&gt; &lt;option value="5"&gt;5&lt;/option&gt; &lt;option value="6"&gt;6&lt;/option&gt; &lt;option value="7"&gt;7&lt;/option&gt; &lt;option value="8"&gt;8&lt;/option&gt; &lt;option value="9"&gt;9&lt;/option&gt; &lt;option value="10"&gt;10&lt;/option&gt; &lt;option value="11"&gt;11&lt;/option&gt; &lt;option value="12"&gt;12&lt;/option&gt; &lt;option value="13"&gt;13&lt;/option&gt; &lt;option value="14"&gt;14&lt;/option&gt; &lt;option value="15"&gt;15&lt;/option&gt; &lt;option value="16"&gt;16&lt;/option&gt; &lt;option value="17"&gt;17&lt;/option&gt; &lt;option value="18"&gt;18&lt;/option&gt; &lt;option value="19"&gt;19&lt;/option&gt; &lt;option value="20"&gt;20&lt;/option&gt; &lt;option value="21"&gt;21&lt;/option&gt; &lt;option value="22"&gt;22&lt;/option&gt; &lt;option value="23"&gt;23&lt;/option&gt; &lt;option value="24"&gt;24&lt;/option&gt; &lt;option value="25"&gt;25&lt;/option&gt; &lt;option value="26"&gt;26&lt;/option&gt; &lt;option value="27"&gt;27&lt;/option&gt; &lt;option value="28"&gt;28&lt;/option&gt; &lt;option value="29"&gt;29&lt;/option&gt; &lt;option value="30"&gt;30&lt;/option&gt; &lt;option value="31"&gt;31&lt;/option&gt; &lt;/select&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Password&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;input id="firstpassword" type="password" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-minlength" ng-model="Password" required minlength="6" onblur="validatepattern(this)"&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form-group"&gt; &lt;label class="col-md-3 col-xs-3 col-sm-3 control-label"&gt;Confirm Password&lt;/label&gt; <br/>
+        &lt;div class="col-md-4 col-xs-4 col-sm-4"&gt; <br/>
+         &lt;input id="secondpassword" type="password" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="CPassword" required onblur="validatepasswords(this)"&gt; <br/>
+         &lt;script&gt;                 function validatepasswords(input)                 {                     var password1= document.getElementById("firstpassword").value;                     var password2=document.getElementById("secondpassword").value;                     if (!(password1==password2))                     {                         input.setCustomValidity('Passwords dont match');                     }                     else                     {                         input.setCustomValidity('');                     }                 }                 function validatepattern(input)                 {                     var password1= document.getElementById("firstpassword").value;                     var pattern =/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]){4,6}(?!.*\s ).*$/;                     if (!(pattern.test(input.value)))                     {                         input.setCustomValidity('Please Enter an UpperCase,LowerCase Alphabet and a Number');                     }                     else                     {                         input.setCustomValidity('');                     }                 }                 &lt;/script&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="form group"&gt; <br/>
+        &lt;div class="col-md-9 col-md-offset-3 com-sm-9 col-sm-offset-3 col-xs-9 col-xs-offset-3 "&gt; &lt;button id="submitbtn" type="submit" class="btn btn-primary" name="signup" value="sign up"&gt; Submit &lt;/button&gt; &lt;button id="Button1" type="button" class="btn btn-primary" value="Refresh"&gt;Refresh&lt;/button&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/form&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="col-sm-4 col-md-4 col-xs-4"&gt; &lt;label class="col-xs-6 col-xs-offset-6" style="margin-top: 10px"&gt; Photo&lt;/label&gt; <br/>
+      &lt;div class="col-xs-6 col-xs-offset-6" style="margin-top: 15px"&gt; <br/>
+       &lt;img id="imagetrgt" style="width:120px !important;height:120px!important; " src="original.png"&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="col-xs-6 col-xs-offset-6"&gt; <br/>
+       &lt;input id="imagesrc" type="file" style=" margin-top: 10px!important; " onchange="uploadimg()"&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;script&gt;<br/>
+                        function uploadimg()<br/>
+                        {       var img= document.getElementById("imagetrgt");        var src= document.getElementById("imagesrc");<br/>
+                        }<br/>
+                        $(document).ready(function() {<br/>
+                            $('#Button1').click(function() {<br/>
+                                location.reload();<br/>
+                            });<br/>
+                        });<br/>
+                    &lt;/script&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/section&gt; <br/>
+  &lt;footer id="footer" class="midnight-blue col-md-12 col-xs-12 col-sm-12"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="row"&gt; <br/>
+     &lt;div class="col-md-6 col-xs-6 col-sm-6"&gt;<br/>
+      "@ 2016"&lt;a target="_blank" href="#" title="Sakinalium Demo Site"&gt;Automation Testing&lt;/a&gt;"All Rights Reserved."<br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="col-md-6 col-xs-6 col-sm-6 social pull-right"&gt; &lt;a target="_blank" href="https://www.facebook.com/automationtesting2016/" class="link facebook"&gt;&lt;span class="fa fa-facebook-square"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a target="_blank" href="https://twitter.com/krishnasakinala" class="link twitter"&gt;&lt;span class="fa fa-twitter-square"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a target="_blank" href="https://www.linkedin.com/nhome/?trk=hb_signin" class="link linkedin"&gt;&lt;span class="fa fa-linkedin-square"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a target="_blank" href="https://plus.google.com/105286300926085335367" class="link google-plus"&gt;&lt;span class="fa fa-google-plus-square"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a target="_blank" href="https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg" class="link youtube"&gt;&lt;span class="fa fa-youtube-square"&gt;&lt;/span&gt;&lt;/a&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/footer&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+<br/>
+    $(document).ready(function() {<br/>
+        var country = ["", "Australia", "Bangladesh", "Denmark", "Hong Kong", "India", "Japan", "Netherlands", "New Zealand", "South Africa", "United States of America"];<br/>
+        $("#country").select2({<br/>
+            data: country<br/>
+        });<br/>
+    });<br/>
+<br/>
+&lt;/script&gt; <br/>
+  &lt;ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"&gt;<br/>
+   &lt;div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"&gt;<br/>
+    &lt;iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9173866185064071&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1658234640&amp;plat=1%3A1024%2C2%3A1024%2C9%3A32904%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fdemo.automationtesting.in%2FRegister.html&amp;ea=0&amp;pra=7&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTA0LjAuNTExMi44MSIsW10sZmFsc2UsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTA0LjAuNTExMi44MSJdLFsiIE5vdCBBO0JyYW5kIiwiOTkuMC4wLjAiXSxbIkdvb2dsZSBDaHJvbWUiLCIxMDQuMC41MTEyLjgxIl1dLGZhbHNlXQ..&amp;dt=1660218129344&amp;bpp=2&amp;bdt=725&amp;idt=549&amp;shv=r20220809&amp;mjsv=m202208040101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=1200x280&amp;nras=1&amp;correlator=2112551309933&amp;frm=20&amp;pv=1&amp;ga_vid=1693724787.1660218130&amp;ga_sid=1660218130&amp;ga_hid=436695005&amp;ga_fc=0&amp;u_tz=330&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=680&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1.5&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1263&amp;bih=547&amp;scr_x=0&amp;scr_y=350&amp;eid=44771041%2C31068486%2C44770765%2C31062931&amp;oid=2&amp;pvsid=651316635359986&amp;tmod=388022295&amp;uas=0&amp;nvt=2&amp;eae=2&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C680%2C1280%2C564&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=33792&amp;bc=31&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=555" data-google-container-id="a!2" data-load-complete="true"&gt;&lt;/iframe&gt;<br/>
+   &lt;/div&gt;&lt;/ins&gt;&lt;iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"&gt;&lt;/iframe&gt;&lt;iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20220809/r20190131/zrt_lookup.html" style="display: none;"&gt;&lt;/iframe&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>
